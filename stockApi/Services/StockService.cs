@@ -3,12 +3,12 @@ using StockApi.Dto;
 using AutoMapper;
 
 namespace StockApi.Services{
-    public class StockService
+    public class StockService : IStockService
 {
-    private readonly StockRepository _stockRepository;
+    private readonly IStockRepository _stockRepository;
     private readonly IMapper _mapper;
 
-    public StockService(StockRepository stockRepository, IMapper mapper)
+    public StockService(IStockRepository stockRepository, IMapper mapper)
     {
         _stockRepository = stockRepository;
         _mapper = mapper;

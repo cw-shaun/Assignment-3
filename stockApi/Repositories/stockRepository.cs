@@ -6,7 +6,7 @@ using StockApi.Dto;
 
 namespace StockApi.Repositories
 {
-    public class StockRepository
+    public class StockRepository:IStockRepository
     {
         private readonly string _connectionString;
 

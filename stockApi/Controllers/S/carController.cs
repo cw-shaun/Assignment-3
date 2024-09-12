@@ -10,10 +10,10 @@ namespace StockApi.Controllers
     [Route("api/[controller]")]
     public class StockController : ControllerBase
     {
-        private readonly StockService _stockService;
+        private readonly IStockService _stockService;
         private readonly IMapper _mapper;
 
-        public StockController(StockService stockService, IMapper mapper)
+        public StockController(IStockService stockService, IMapper mapper)
         {
             _stockService = stockService;
             _mapper = mapper;

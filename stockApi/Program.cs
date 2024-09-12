@@ -10,8 +10,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(Program));  // Register AutoMapper
-builder.Services.AddScoped<StockRepository>();    // Register DAL
-builder.Services.AddScoped<StockService>();       // Register BAL
+builder.Services.AddScoped<IStockRepository, StockRepository>();    // Register DAL
+builder.Services.AddScoped<IStockService, StockService>();       // Register BAL
 builder.Services.AddSingleton<IConfiguration>(provider =>
             new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
