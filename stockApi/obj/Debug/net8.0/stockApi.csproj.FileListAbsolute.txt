@@ -51,3 +51,4 @@ C:\Users\shaun\Desktop\Assignments\Dotnet\stockApi\obj\Debug\net8.0\refint\stock
 C:\Users\shaun\Desktop\Assignments\Dotnet\stockApi\obj\Debug\net8.0\stockApi.pdb
 C:\Users\shaun\Desktop\Assignments\Dotnet\stockApi\obj\Debug\net8.0\stockApi.genruntimeconfig.cache
 C:\Users\shaun\Desktop\Assignments\Dotnet\stockApi\obj\Debug\net8.0\ref\stockApi.dll
+C:\Users\shaun\Desktop\Assignments\Dotnet\stockApi\obj\Debug\net8.0\stockApi.sourcelink.json
